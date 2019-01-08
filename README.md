@@ -26,8 +26,6 @@ Feature-wise object properties:-
 
 To customize a link at runtime, we need to add a ***configurable*** property. Another optional property is ***commonConf***.
 
-When the link is clicked the following dialog box is invoked.
-![](https://drive.google.com/open?id=1roehNu7D4F2D-Bep3CzteOzpApYbACEI)
 
     "links": [
     {
