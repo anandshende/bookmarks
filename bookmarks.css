@@ -1,0 +1,100 @@
+.main-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.inner-container {
+  display: inline-block;
+  text-align: left;
+}
+
+.box-container {
+  float: left;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.box-header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-list-value {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.box-list-value li {
+  /* width: 300px; */
+  padding-left: 0;
+}
+
+.class-float {
+  float: left;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #c7c6fd;
+}
+
+.dialog-btn-container {
+  width: 100%;
+  text-align: center;
+}
+
+.dialog-btn {
+  display: inline-block;
+}
+
+input {
+  border: none;
+}
+
+.table {
+  display: table;
+  margin-bottom: 30px;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.table-row .table-cell:first-child {
+  font-weight: bold;
+}
+
+.table-row .table-cell:last-child {
+  /* font-weight: bold; */
+  color: #ce6424;
+}
+
+.dynamic-table-cell {
+  padding: 5px;
+}
+
+#showOtherDetails {
+  display: none;
+}
+
+h1, h3 {
+  text-align: center;
+}

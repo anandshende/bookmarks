@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookmarks</title>
+
+    <link rel="stylesheet" target="_blank" href="./bookmarks.css">
+    <script src="./bookmarks-json.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="links-container" class="inner-container">
+        </div>
+        <br>
+        <hr><br>
+        <div id="cred-container" class="inner-container">
+        </div>
+        <br>
+        <hr><br>
+        <div id="info-container" class="inner-container">
+        </div>
+    </div>
+
+    <dialog id="myDialog">
+        <h3 id="heading"></h3>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Username</div>
+                <input class="table-cell" type="text" id="username">
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Password</div>
+                <input class="table-cell" type="text" id="password">
+            </div>
+            <div class="table-row" id="showOtherDetails">
+                <div class="table-cell">Other Details</div>
+                <textarea class="table-cell" type="text" id="otherDetails"></textarea>
+            </div>
+        </div>
+        <div class="dialog-btn-container">
+            <button class="dialog-btn" onclick="closeDialog()">OK</button>
+        </div>
+    </dialog>
+    <dialog id="dynamicDialog">
+        <h3 id="dynamicHeading"></h3>
+        <div class="table" id="dynamicTable">
+            <!-- <div class="table-row">
+                <div class="table-cell">Username</div>
+                <input class="table-cell" type="text" id="username">
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Password</div>
+                <input class="table-cell" type="text" id="password">
+            </div>
+            <div class="table-row" id="showOtherDetails">
+                <div class="table-cell">Other Details</div>
+                <textarea class="table-cell" type="text" id="otherDetails"></textarea>
+            </div> -->
+        </div>
+        <div class="dialog-btn-container">
+            <button class="dialog-btn" onclick="closeDynamicDialog()">OK</button>
+        </div>
+    </dialog>
+
+    <script src="./utils/commonUtils.js"></script>
+    <script src="./utils/hyperLinksUtil.js"></script>
+    <script src="./utils/noticeBoardUtil.js"></script>
+
+    <script src="./features/hyperLinks.js"></script>
+    <script src="./features/credentialsHolder.js"></script>
+    <script src="./features/noticeBoard.js"></script>
+
+    <script src="./bookmarks.js"></script>
+</body>
+
+</html>
