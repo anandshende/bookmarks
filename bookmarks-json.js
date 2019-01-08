@@ -116,7 +116,7 @@ var data = {
             "header": "Finance",
             "values": [
                 {
-                    "name": "HDFC",
+                    "name": "Bank 1",
                     "values": [
                         { "key": "Account Number", "value": "11111111111111" },
                         { "key": "Branch", "value": "Branch" },
@@ -125,7 +125,7 @@ var data = {
                     ]
                 },
                 {
-                    "name": "SBI",
+                    "name": "Bank 2",
                     "values": [
                         { "key": "Account Number", "value": "555555555" },
                         { "key": "Branch", "value": "Branch" },
